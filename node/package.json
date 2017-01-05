@@ -1,0 +1,16 @@
+{
+  "name": "grpc_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "google-protobuf": "3.1.1",
+    "grpc": "1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Dearing",
+  "license": "MIT"
+}

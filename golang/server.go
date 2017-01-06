@@ -40,7 +40,7 @@ func main() {
 			}
 		}
 	}()
-	signal.Notify(sigchan, syscall.SIGQUIT)
+	signal.Notify(sigchan, syscall.SIGUSR1)
 
 	lis, err := net.Listen("tcp", port)
 	if err != nil {

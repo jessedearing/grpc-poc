@@ -10,13 +10,13 @@ person/person.pb.go:
 .PHONY: server
 server: server/server ## Build the server
 
-server/server: grpc
+server/server: server/*.go
 	cd server && go build
 
 .PHONY: client
 client: client/client ## Build the client
 
-client/client: grpc
+client/client: client/*.go
 	cd client && go build
 
 .PHONY: clean
